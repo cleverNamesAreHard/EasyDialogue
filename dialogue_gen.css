@@ -1,0 +1,105 @@
+/* Existing CSS for basic layout and appearance */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.message-container {
+    border: 1px solid #333;
+    padding: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+    flex-grow: 1;
+    width: calc(100% - 40px); /* Compensate for padding */
+}
+
+.message {
+    padding: 5px;
+    background-color: #333;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: move;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.message-info {
+    font-size: 0.9em;
+    color: #FFFFFF;
+    display: inline;
+    font-weight: bold;
+}
+
+.delete-btn {
+    color: #ff5555;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Adjusted CSS for form alignment and spacing */
+form {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 40px); /* Adjusted to match message container width */
+    gap: 10px;
+}
+
+/* Specific widths for text inputs */
+input[type="text"]#speaker {
+    width: 15%; /* Set width for speaker name input */
+}
+
+input[type="text"]#message {
+    width: 35%; /* Set width for message input */
+}
+
+input[type="text"] {
+    padding: 8px;
+    background-color: #222;
+    border: 1px solid #444;
+    color: #ddd;
+    height: 23px;
+}
+
+/* Styling for all buttons */
+button {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #ddd;
+    width: 40px;
+    height: 40px;
+}
+
+/* Hover effects for all buttons */
+button:hover {
+    background-color: #333;
+    border: 1px solid #555;
+}
+
+/* Specific styling for the send button */
+#sendButton {
+    background-color: #222;
+    border: 1px solid #444;
+    color: #ddd;
+    padding: 8px;
+    width: auto; /* Adjust width as necessary */
+}
+
+/* Hover effect for send button */
+#sendButton:hover {
+    background-color: #444;
+    border-color: #666;
+}

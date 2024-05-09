@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dialogue Generator</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="dialogue_gen.css">
+</head>
+<body>
+  <form id="messageForm">
+    <input type="text" id="speaker" placeholder="Speaker name" required style="width: 30%;">
+    <input type="text" id="message" placeholder="Enter message" required style="width: 30%;">
+    <button type="submit" id="sendButton">Send</button>
+    <button onclick="document.getElementById('importBtn').click(); return false;" id="importBtnTrigger"><i class="fa fa-folder-open" aria-hidden="true"></i></button>
+    <input type="file" id="importBtn" accept=".json" style="display: none;">
+    <button id="exportBtn"><i class="fa fa-save" aria-hidden="true"></i></button>
+  </form>
+  <div id="messages" class="message-container"></div>
+
+  <script src="dialogue_gen.js"></script>
+</body>
+</html>
