@@ -6,11 +6,11 @@ To get started with EasyDialogue, simply clone the repository to your local mach
 ```bash
 git clone https://github.com/cleverNamesAreHard/EasyDialogue.git
 ```
-Navigate to the cloned directory and open `gen_dialogue.html` in your web browser to start using the dialogue generator.
+Navigate to the cloned directory and open `index.html` in your web browser to start using the dialogue generator.
 
 ## Usage
 EasyDialogue is designed to be straightforward and user-friendly:
-- **Open `gen_dialogue.html`**: Just open the `gen_dialogue.html` file in any modern web browser.
+- **Open `index.html`**: Just open the `index.html` file in any modern web browser.
 - **Create Dialogues**: Use the provided form to input the speaker's name and their message. Press 'Send' to add the dialogue to the session.
 - **Manage Dialogues**: You can rearrange dialogues by dragging and dropping, and delete any dialogue using the [Delete] button next to it.
 - **Save/Load Dialogues**: Use the export button to save your session to a JSON file, or the import button to load an existing session from a JSON file.
