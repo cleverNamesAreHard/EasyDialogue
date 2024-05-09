@@ -1,6 +1,15 @@
 ## Introduction
 EasyDialogue is a lightweight application designed to simplify the creation and management of interactive dialogue systems for games and other applications. It features an intuitive interface for adding, deleting, and rearranging dialogue entries, with support for color-coded speakers and exporting/importing dialogues in JSON format.
 
+## Prerequisites
+Please install [Git](https://git-scm.com/downloads) for you operating system.  Please ensure Git is available for execution by running:
+
+```bash
+git --version
+```
+
+If Git is unavailable... Please find a tutorial for installing and using Git.  That's beyond the scope of this.
+
 ## Installation
 To get started with EasyDialogue, simply clone the repository to your local machine:
 ```bash
