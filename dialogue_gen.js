@@ -35,7 +35,7 @@ function displayMessages() {
         messageElement.setAttribute('data-id', msg.id);
         messageElement.style.backgroundColor = getColorForSpeaker(msg.speaker);
         messageElement.setAttribute('draggable', true);
-        messageElement.innerHTML = `<span class="message-info">${msg.speaker}: &nbsp;</span>${msg.text}<span class="delete-btn" onclick="deleteMessage(${msg.id})">[Delete]</span>`;
+        messageElement.innerHTML = `<span class="message-info">${msg.speaker}: &nbsp;</span>${msg.text}<span class="delete-btn" onclick="deleteMessage(${msg.id})">&nbsp;[Delete]</span>`;
         messagesContainer.appendChild(messageElement);
     });
     setupDraggableItems();
